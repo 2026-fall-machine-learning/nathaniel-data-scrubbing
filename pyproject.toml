@@ -1,0 +1,17 @@
+[project]
+name = "nathaniel-data-scrubbing"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "narudser", email = "nrudser@madisoncollege.edu" }
+]
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+nathaniel-data-scrubbing = "nathaniel_data_scrubbing:main"
+
+[build-system]
+requires = ["uv_build>=0.12.11,<0.13.0"]
+build-backend = "uv_build"
